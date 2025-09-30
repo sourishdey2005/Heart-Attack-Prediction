@@ -104,28 +104,31 @@ heart_model_keras_h5/
 - joblib 1.1+
 
 
-📋 Input Features
-Feature	Description	Range/Values
-age	Age in years	29–77
-sex	Gender	1 = Male, 0 = Female
-cp	Chest pain type	1–4
-trestbps	Resting blood pressure (mm Hg)	94–200
-chol	Serum cholesterol (mg/dL)	126–564
-fbs	Fasting blood sugar	1 = >120, 0 = ≤120
-restecg	Resting ECG results	0–2
-thalach	Max heart rate	71–202
-exang	Exercise-induced angina	1 = Yes, 0 = No
-oldpeak	ST depression	0.0–6.2
-slope	ST segment slope	1–3
-ca	Major vessels colored	0–3
+##📋 Input Features
+
+
+
+-Feature	Description	Range/Values
+-age	Age in years	29–77
+-sex	Gender	1 = Male, 0 = Female
+-cp	Chest pain type	1–4
+-trestbps	Resting blood pressure (mm Hg)	94–200
+-chol	Serum cholesterol (mg/dL)	126–564
+-fbs	Fasting blood sugar	1 = >120, 0 = ≤120
+-restecg	Resting ECG results	0–2
+-thalach	Max heart rate	71–202
+-exang	Exercise-induced angina	1 = Yes, 0 = No
+-oldpeak	ST depression	0.0–6.2
+-slope	ST segment slope	1–3
+-ca	Major vessels colored	0–3
 
 Categorical Feature Details:
 
-cp: 1 = Typical angina, 2 = Atypical, 3 = Non-anginal, 4 = Asymptomatic
+-cp: 1 = Typical angina, 2 = Atypical, 3 = Non-anginal, 4 = Asymptomatic
 
-restecg: 0 = Normal, 1 = ST-T abnormality, 2 = LV hypertrophy
+-restecg: 0 = Normal, 1 = ST-T abnormality, 2 = LV hypertrophy
 
-slope: 1 = Upsloping, 2 = Flat, 3 = Downsloping
+-slope: 1 = Upsloping, 2 = Flat, 3 = Downsloping
 
 
 
